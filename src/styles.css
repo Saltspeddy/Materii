@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply relative overflow-hidden h-56 bg-gray-300  w-56 bg-center bg-cover rounded-3xl transition-all duration-1000 flex justify-center items-center bg-blend-darken;
+}
+
+
+.card > div{
+    transition: all .5s;
+}
+.card:hover > div{
+    @apply opacity-100 translate-y-0;
+}
